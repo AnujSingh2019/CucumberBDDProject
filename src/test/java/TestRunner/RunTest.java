@@ -11,8 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-		//features = ".//Features/Customer.feature",
-		features = {".//Features/Customer.feature",".//Features/Login.feature"},
+		features = "./src/test/resources/Features/Customer.feature",
+		//features = {".//Features/Customer.feature",".//Features/Login.feature"},
 		glue = {"Stepdefinition"},
 		dryRun=false,
 		monochrome=true,
@@ -24,7 +24,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 
-public class Run extends AbstractTestNGCucumberTests {
+public class RunTest extends AbstractTestNGCucumberTests {
 	
 	
 

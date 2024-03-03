@@ -7,7 +7,7 @@ Feature: Add Customer
     And clicks on Login
     Then user can view Dashboard
 
-@Sanity
+  @Sanity
   Scenario: Add a new customer
     When user clicks on Customer Menu
     And clicks on Customer Menu Item
@@ -18,7 +18,7 @@ Feature: Add Customer
     Then user can view confirmation message "The new customer has been added successfully"
     And Close Browser
 
-@regression
+  @regression
   Scenario: Search an existing customer by Email
     When user clicks on Customer Menu
     And clicks on Customer Menu Item
@@ -27,7 +27,7 @@ Feature: Add Customer
     Then user can view  Customer details in page
     And Close Browser
 
-@regression
+  @regression
   Scenario: Search an existing customer by Name
     When user clicks on Customer Menu
     And clicks on Customer Menu Item
